@@ -10,6 +10,7 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
 }
 
 #search-box {
@@ -18,3 +19,21 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list li {
+  display: flex;
+  list-style: none;
+  align-items: flex-end;
+  font-size: 28px;
+}
+
+/* .country-info {
+  width: 240px;
+  height: 240px;
+  background-color: #ccc;
+  background-image: radial-gradient(#000 10%, transparent 11%),
+    radial-gradient(#e53935 10%, transparent 11%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  background-repeat: repeat;
+} */
